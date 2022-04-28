@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Collector</title>
+    <meta name="description" content="This is Crystal collector game, enjoy playing it :D" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" type="image/x-icon"  href="./assets/images/blue.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+</head>
+<body>
+
+    <header>
+        <div class="header-div">
+            <h1 class="header-h1">Crystal Collector !</h1>
+        </div>
+    </header>
+
+    <div class="instruction-div">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal</p>
+    </div>
+    
+    <div class="win-div">
+        <p>You won or lose !</p>
+    </div>
+
+    <div class="result-div">
+        <div class="random-num-div" >
+            <p class="random-num" >number</p>
+        </div>
+
+        <div class="info-div">
+            <button class="info">?</button>
+        </div>
+
+        <div class="results" >
+            <p>Wins: <span class="wins">0</span></p>
+            <p>Loses: <span class="loses">0</span></p>
+        </div>
+    </div>
+
+    <div class="images-div">
+        <img class="color red" src="./assets/images/red.png" alt="red">
+        <img class="color blue" src="./assets/images/blue.png" alt="blue">
+        <img class="color yellow" src="./assets/images/yellow.png" alt="yellow">
+        <img class="color green" src="./assets/images/green.png" alt="green">
+    </div>
+
+    <div class="total-score-div" >
+        <p>Your total score: <span class="user-score">0</span></p>
+    </div>
+
+    <script src="./assets/js/index.js" ></script>
+</body>
+</html>
